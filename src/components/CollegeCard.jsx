@@ -4,11 +4,11 @@ export default function CollegeCard({ college }) {
   return (
     <div className="group relative bg-card rounded-2xl border border-border overflow-hidden hover:border-accent/50 transition-all duration-500 hover:shadow-xl hover:shadow-accent/5 min-w-[320px] max-w-[380px] flex-shrink-0">
       {/* Image */}
-      <div className="relative h-48 overflow-hidden">
+      <div className="relative h-40 bg-white flex items-center justify-center p-4">
         <img
           src={college.image}
           alt={college.name}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+          className="max-w-full max-h-full object-contain"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent" />
         <div className="absolute bottom-4 left-4 right-4">
