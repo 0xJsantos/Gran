@@ -42,7 +42,7 @@ export default function ServicesSection({ consultationImg }) {
             Your 360° Support Blueprint
           </h2>
           <p className="text-muted-foreground font-body text-lg leading-relaxed">
-            We guide mature students through every step of the journey back to education — removing barriers and building confidence.
+            We guide mature students through every step of their return to education, helping them overcome barriers and build confidence along the way.
           </p>
         </div>
 
