@@ -63,7 +63,7 @@ export default function FeaturedColleges() {
         </div>
 
         {/* Cards scroll */}
-        <div className="flex gap-6 overflow-x-auto pb-6 snap-x snap-mandatory scrollbar-hide -mx-6 px-6">
+        <div className="flex gap-6 overflow-x-auto pb-6 snap-x snap-mandatory -mx-6 px-6">
           {colleges.map(c => (
             <div key={c.name} className="snap-start">
               <CollegeCard college={c} />
