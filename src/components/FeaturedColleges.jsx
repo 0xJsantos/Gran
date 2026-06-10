@@ -34,7 +34,7 @@ const FEATURED_COLLEGES = [
     location: 'Victoria, BC',
     description: 'Innovative career college offering diverse programs in health sciences, arts, business, and cutting-edge technology.',
     programs: ['Healthcare Assistant', 'AI & Data Analytics', 'Cybersecurity', 'Character Animation'],
-    image: null,
+    image: '/images/Edison_College.png',
   },
 ];
 
