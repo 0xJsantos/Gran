@@ -5,7 +5,7 @@ import { Menu, X, Phone, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ConsultationModal from './ConsultationModal';
 
-const LOGO_URL = 'https://media.db.com/images/public/6a1b899011c8046fc7d701ef/2d351b273_image.png';
+const LOGO_URL = '/images/GranLogo.png';
 
 const navLinks = [
   { label: 'Home', href: '#home' },
