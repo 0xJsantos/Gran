@@ -17,7 +17,7 @@ const testimonials = [
     name: 'Priya M.',
     role: 'Medical Office Assistant Graduate',
     province: 'Ontario',
-    text: "I was overwhelmed by the application process until Gran Consulting stepped in. They handled everything — from document preparation to admissions communication. Professional, thorough, and genuinely caring.",
+    text: "Returning to school felt overwhelming at first, but Gran Consulting guided me through every step of the application process. They took care of the paperwork, coordinated with admissions teams, and provided support throughout the journey. Their professionalism, attention to detail, and genuine care made all the difference.",
   },
 ];
 
