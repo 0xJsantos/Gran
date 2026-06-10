@@ -87,7 +87,7 @@ export default function HeroSection({ heroImage }) {
               <div className="text-3xl font-heading font-bold text-accent">Trusted Guidance</div>
               <div className="text-sm font-body text-primary-foreground/70">Helping mature students return to education</div>
             </div>
-            <div className="absolute -top-4 -right-4 bg-black/10 backdrop-blur-xl border border-white/10 rounded-2xl p-6 shadow-xl">
+            <div className="absolute -top-4 -right-4 bg-black/60 backdrop-blur-xl border border-white/10 rounded-2xl p-6 shadow-xl">
               <div className="text-3xl font-heading font-bold text-accent">Career-Focused</div>
               <div className="text-sm font-body text-primary-foreground/70">Programs aligned with today's job market</div>
             </div>
