@@ -84,12 +84,12 @@ export default function HeroSection({ heroImage }) {
             </div>
             {/* Stats card */}
             <div className="absolute -bottom-6 -left-6 bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-6 shadow-xl">
-              <div className="text-3xl font-heading font-bold text-accent">20+</div>
-              <div className="text-sm font-body text-primary-foreground/70">Partner Colleges</div>
+              <div className="text-3xl font-heading font-bold text-accent">Trusted Guidance</div>
+              <div className="text-sm font-body text-black">Helping mature students return to education</div>
             </div>
             <div className="absolute -top-4 -right-4 bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-6 shadow-xl">
-              <div className="text-3xl font-heading font-bold text-accent">9</div>
-              <div className="text-sm font-body text-primary-foreground/70">Provinces Served</div>
+              <div className="text-3xl font-heading font-bold text-accent">Career-Focused Programs</div>
+              <div className="text-sm font-body text-black">Programs aligned with today's job market</div>
             </div>
           </div>
         </div>
