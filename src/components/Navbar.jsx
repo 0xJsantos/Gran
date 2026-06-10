@@ -40,7 +40,7 @@ export default function Navbar() {
 
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
           <a href="#home" onClick={() => scrollTo('#home')} className="flex items-center gap-3">
-            <img src={LOGO_URL} alt="Gran Consulting" className="h-12 w-12 rounded-lg object-cover" />
+            <img src={LOGO_URL} alt="Gran Consulting" className="h-12 w-auto object-contain" />
             <div className="flex items-center gap-1">
               <span className="text-lg font-heading font-bold text-primary-foreground tracking-wider">GRAN</span>
               <span className="text-lg font-heading font-bold text-accent tracking-wider">Consulting</span>
