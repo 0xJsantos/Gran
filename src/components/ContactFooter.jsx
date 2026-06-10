@@ -8,7 +8,7 @@ import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Textarea } from '@/components/ui/textarea';
 
-const LOGO_URL = 'https://media.db.com/images/public/6a1b899011c8046fc7d701ef/2d351b273_image.png';
+const LOGO_URL = '/images/GranLogo.png';
 
 const RESIDENCE_OPTIONS = [
   'Canadian Citizen',
