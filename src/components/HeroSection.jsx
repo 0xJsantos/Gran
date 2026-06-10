@@ -83,13 +83,13 @@ export default function HeroSection({ heroImage }) {
               <div className="absolute inset-0 bg-gradient-to-t from-primary/40 via-transparent to-transparent" />
             </div>
             {/* Stats card */}
-            <div className="absolute -bottom-6 -left-6 bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-6 shadow-xl">
+            <div className="absolute bottom-6 left-6 bg-black/40 backdrop-blur-xl border border-white/10 rounded-2xl p-6 shadow-xl">
               <div className="text-3xl font-heading font-bold text-accent">Trusted Guidance</div>
-              <div className="text-sm font-body text-black">Helping mature students return to education</div>
+              <div className="text-sm font-body text-primary-foreground/70">Helping mature students return to education</div>
             </div>
-            <div className="absolute -top-4 -right-4 bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-6 shadow-xl">
-              <div className="text-3xl font-heading font-bold text-accent">Career-Focused Programs</div>
-              <div className="text-sm font-body text-black">Programs aligned with today's job market</div>
+            <div className="absolute -top-4 -right-4 bg-black/10 backdrop-blur-xl border border-white/10 rounded-2xl p-6 shadow-xl">
+              <div className="text-3xl font-heading font-bold text-accent">Career-Focused</div>
+              <div className="text-sm font-body text-primary-foreground/70">Programs aligned with today's job market</div>
             </div>
           </div>
         </div>
