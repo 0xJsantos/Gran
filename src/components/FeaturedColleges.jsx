@@ -38,11 +38,11 @@ const FEATURED_COLLEGES = [
   },
 ];
 
-export default function FeaturedColleges({ healthcareImg, businessImg }) {
-  const colleges = FEATURED_COLLEGES.map((c, i) => ({
-    ...c,
-    image: i % 2 === 0 ? healthcareImg : businessImg,
-  }));
+export default function FeaturedColleges() {
+  const colleges = FEATURED_COLLEGES.map((c) => ({
+  ...c,
+  image: c.image,
+}));
 
   return (
     <section id="colleges" className="py-24 lg:py-32 bg-secondary">
